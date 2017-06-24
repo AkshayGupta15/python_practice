@@ -1,7 +1,5 @@
 import time
 from random import randint
-usr_name='default'
-msg=" "
 def initl():
     msg=" You can't beat me!!!  "
     print " ^-^ "*5,"Welcome to GUESS THE NUMBER"," ^-^ "*5
@@ -26,7 +24,6 @@ def initl():
 
 initl()
 dummy=raw_input("Press ENTER key to begin\n")
-
 print "Let me Pick a number....\n"
 msg=" \n You can't beat me!!! My number was:  "
 chance=3
